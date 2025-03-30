@@ -1,9 +1,9 @@
 // MSAL configuration - replace with your own values
 const msalConfig = {
     auth: {
-        clientId: "YOUR_CLIENT_ID", // Replace with your app registration client ID
-        authority: "https://login.microsoftonline.com/YOUR_TENANT_ID", // Replace with your tenant ID
-        redirectUri: window.location.origin, // This should match what's registered in Azure AD
+    clientId: "24c2530b-2523-4ab7-a112-75d067db42c8", // Replace with your actual client ID
+    authority: "https://login.microsoftonline.com/57e5ff0e-70be-456e-ad59-cedf7336f150", // Replace with your actual tenant ID
+    redirectUri: "https://purple-plant-01486b510.6.azurestaticapps.net", // Your new URL
     },
     cache: {
         cacheLocation: "sessionStorage",
